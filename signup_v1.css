@@ -1,0 +1,74 @@
+*{background-color: grey;}
+
+.text,input,.title{
+    background-color: white;
+    font-size: 70%;
+    letter-spacing: +0.5px;
+    line-height: -1px;
+}
+
+.title{
+    font-size: 140%;
+}
+
+form
+{
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    display: inline-block;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 3%;
+    padding-left: 6%;
+    width: 400px;
+    height: 4S50px;
+    text-align: left;
+}
+
+.box
+{
+    padding: 3%;
+    width: 80%;
+}
+
+input:hover
+{
+    border: 2px;
+    border-style: solid;
+
+    border-color:rgb(25, 95, 217);
+}
+
+a{
+    color: rgb(25, 95, 217);
+    text-decoration: none;
+    padding-left: 53px;
+}
+
+#eye1{
+    position: absolute;
+    top: 300px;
+    left: 445px;
+}
+
+#eye2{
+    position: absolute;
+    top: 357px;
+    left: 445px;
+}
+
+button
+{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+}
+button:hover
+{
+    opacity: 0.75;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demo Form page</title>
+        <link rel="stylesheet" href="form_v1.css">
+    </head>
+    <body>
+
+        <div class="loginform">
+        <form method="post" >
+            <p class="title">ACCOUNT LOGIN</p><br>
+            
+            <label for="user" class="text">USERNAME</label><br>
+            <input type="text" name="user" class="box" required><br><br>
+
+            <label for="pword" class="text">PASSWORD</label><br>
+            <input type="password" id="pword" name="password" class="box" required>
+            <input type="checkbox" name="pVisibility" onclick="Visible()" id="eye"><br>
+            
+            <input type="checkbox"><label for="Remember" class="text">Remember me</label>
+            <a href="#" class="text">Forgot password?</a><br><br><br>
+
+            <button type="submit">Login</button>
+            <a href="signup_v1.html" id="acc" class="text">Don't have an account?</a>
+
+        </form>
+        </div>
+
+        <script>
+        function Visible() 
+        {
+        var x = document.getElementById("pword");
+        if (x.type == "password") 
+        {
+            x.type = "text";
+        } else 
+        {
+            x.type = "password";
+        }
+        }
+        </script>
+        
+    </body>
+</html>
